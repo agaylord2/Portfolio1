@@ -1,6 +1,61 @@
 .App {
   text-align: center;
 }
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+html, body { height: 100%; }
+
+h3 { 
+  font-family: monospace;
+  font-size: 30px;
+  text-align: center;
+  
+}
+body {
+  background-color: white;
+}
+
+.button {
+  background-image: -webkit-linear-gradient(top, white, #AEAEAE);
+  background-image: -moz-linear-gradient(top,white, #AEAEAE);
+  background-image: -ms-linear-gradient(top, white, #AEAEAE);
+  background-image: -o-linear-gradient(top,white, #AEAEAE);
+  background-image: linear-gradient(to bottom,  white, #AEAEAE);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+text-shadow: 3px 2px 1px #9daef5;
+  -webkit-box-shadow: 6px 5px 24px #666666;
+  -moz-box-shadow: 6px 5px 24px #666666;
+  box-shadow: 6px 5px 24px #666666;
+font-family: monospace;
+  color: black;
+  font-size: 20px;
+  padding: 19px;
+  text-decoration: none;
+}
+h5{
+  text-align: center;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+h1{
+  z-index: -1;
+  color: black;
+  font-size: 100px; 
+  font-family: 'Sacramento', cursive;
+  letter-spacing: -1px;
+}
+.headtop{
+text-align: center
+
+
+}
+
+.headbottom{
+  text-align: center
+  }
+
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -30,4 +85,51 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Able {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Ablehead{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+}
+.Ablequote{
+  text-align: center;
+ color: #E5A39B;
+ font-size: 20px;
+}
+
+.brandpic{
+  width: 250px;
+
+}
+
+.Ablebody{
+text-align: left;
+  border: 5px solid black;
+  padding: 50px;
+
+}
+
+.homebutton{
+  text-align: right;
+}
+.perstate{
+
+
+  border: 10px solid black;
+  padding: 60px;
+  text-align: center;
+  font-size: 20px;
+}
+
+b{
+  font-size: 20px;
+}
+
+video{
+  width: 200px;
 }
